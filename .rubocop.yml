@@ -1,0 +1,22 @@
+AllCops:
+  Exclude:
+    - 'db/schema.rb'
+    - 'bin/*'
+
+Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 94
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Rails/HasManyOrHasOneDependent:
+  Enabled: false
